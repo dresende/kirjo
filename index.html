@@ -48,12 +48,12 @@
     --ink-dim: #9AA3B4;     /* Theme.subtleText */
     --ink-faint: #858E9F;   /* Theme.faintText */
     --on-accent: #0B0A08;
-    --accent: #FFC46B;      /* AccentColor — Sunrise start */
-    --accent-2: #FF7A59;
+    --accent: #5EEAD4;      /* AccentColor — Lagoon start */
+    --accent-2: #38BDF8;
 
     /* the five chapter gradients, straight from Shared/Theme.swift */
-    --ch1a:#FFC46B; --ch1b:#FF7A59;  /* First Pour — Sunrise */
-    --ch2a:#5EEAD4; --ch2b:#38BDF8;  /* Confluence — Lagoon  */
+    --ch1a:#5EEAD4; --ch1b:#38BDF8;  /* First Pour — Lagoon  */
+    --ch2a:#FFC46B; --ch2b:#FF7A59;  /* Confluence — Sunrise */
     --ch3a:#C084FC; --ch3b:#F472B6;  /* Undertow   — Orchid  */
     --ch4a:#A3E635; --ch4b:#34D399;  /* Bottleneck — Moss    */
     --ch5a:#60A5FA; --ch5b:#818CF8;  /* Meniscus   — Azure   */
@@ -97,8 +97,8 @@
   /* ---------- atmosphere ---------- */
   .atmosphere { position: fixed; inset: 0; z-index: -1;
     background:
-      radial-gradient(62vw 62vw at 82% -12%, rgba(255,196,107,.13), transparent 60%),
-      radial-gradient(55vw 55vw at 10% 106%, rgba(255,122,89,.10), transparent 60%),
+      radial-gradient(62vw 62vw at 82% -12%, rgba(94,234,212,.13), transparent 60%),
+      radial-gradient(55vw 55vw at 10% 106%, rgba(56,189,248,.10), transparent 60%),
       linear-gradient(180deg, var(--bg), var(--bg-deep));
   }
   .atmosphere::after {
@@ -281,11 +281,10 @@
   <section id="chapters" class="reveal">
     <p class="kicker">The climb</p>
     <h2>Five chapters. Five hundred levels.</h2>
-    <p>Every chapter takes the whole app with it &mdash; the glass, the
-       buttons and the backdrop all shift to its colour, so a screenshot tells
-       you how far in you are. And the pour budget tightens as you go: the
-       first chapter gives you four pours over par, the last two give you
-       one.</p>
+    <p>Every chapter has a colour of its own &mdash; on its badge, on the
+       chapter list, and in the small dot beside <em>Continue</em> that says
+       where you are. And the pour budget tightens as you go: the first
+       chapter gives you four pours over par, the last two give you one.</p>
     <div class="chapters">
       <div class="ch"><div class="swatch" style="background:linear-gradient(120deg,var(--ch1a),var(--ch1b))"></div>
         <h3>First Pour</h3><p>Learn the pour</p>

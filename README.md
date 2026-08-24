@@ -20,8 +20,8 @@ policy**, so the URL is compiled into a shipped build: `AboutSheet.swift` in
 the (private) app repo holds it as a constant. Moving or renaming this file
 breaks a link inside every copy of the app already installed.
 
-The palette mirrors `Shared/Theme.swift` in the app repo — the link colour is
-chapter one's sunrise, `#FFC46B`. The claims in `privacy.html` mirror what the
+The palette mirrors `Shared/Theme.swift` in the app repo — the accent is
+the brand's lagoon, `#5EEAD4` into `#38BDF8`, the same ramp as the icon's K. The claims in `privacy.html` mirror what the
 app actually does: `PuzzleModel`'s iCloud sync, `GameCenter`'s opt-in, `Store`'s
 consumables and `Chime`'s synthesised audio. If any of those change, this page
 changes with them.
