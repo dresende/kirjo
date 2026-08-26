@@ -1,29 +1,15 @@
-# Kirjo
+# Kirjo — moved
 
-A colour-sorting puzzle. Pour a colour onto the same colour or into an empty
-vial; a vial is finished when it is full of one colour. Three rules, 500
-hand-measured levels across five chapters, and a par on every one of them that
-is the true minimum — proved by search, not estimated.
+The website now lives at <https://offline-works.github.io/kirjo/>, in the `offline-works` organisation. Edit it
+there; nothing in this repository is maintained.
 
-No ads, no accounts, no analytics. Helpers are for the stuck, never the price
-of admission.
+**Do not delete this repository.** Two things in it are still load-bearing:
 
-**App Store:** coming soon
-**Website & support:** https://dresende.github.io/kirjo/
-**Privacy policy:** https://dresende.github.io/kirjo/privacy.html
+- `privacy.html` — the full policy text, deliberately *not* a redirect, because
+  this URL is the privacy policy on record in App Store Connect and is compiled into builds now in review. It can become a redirect only once a build has shipped naming the new
+  URL.
+- `icon-180.png` and `icon-512.png` — still hot-linked by the sibling cards and
+  Open Graph tags on the other sites.
 
-This repository hosts Kirjo's public website (GitHub Pages). It is plain
-hand-written HTML with no build step and no dependencies, the same as Sikku's.
-
-`privacy.html` is the page the app links to from **Settings → i → Privacy
-policy**, so the URL is compiled into a shipped build: `AboutSheet.swift` in
-the (private) app repo holds it as a constant. Moving or renaming this file
-breaks a link inside every copy of the app already installed.
-
-The palette mirrors `Shared/Theme.swift` in the app repo — the accent is
-the brand's lagoon, `#5EEAD4` into `#38BDF8`, the same ramp as the icon's K. The claims in `privacy.html` mirror what the
-app actually does: `PuzzleModel`'s iCloud sync, `GameCenter`'s opt-in, `Store`'s
-consumables and `Chime`'s synthesised audio. If any of those change, this page
-changes with them.
-
-Questions or feedback: [dresende@thinkdigital.pt](mailto:dresende@thinkdigital.pt)
+`index.html` is a client-side redirect to the new site: GitHub Pages serves
+static files only and cannot issue a real 301.
