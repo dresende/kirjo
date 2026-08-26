@@ -1,6 +1,6 @@
 # Kirjo — moved
 
-The website now lives at <https://offline-works.github.io/kirjo/>, in the
+The website now lives at <https://kirjo.dresende.pt/>, in the
 `offline-works` organisation. Edit it there; nothing in this repository is
 maintained.
 
